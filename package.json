@@ -1,0 +1,19 @@
+{
+  "name": "current-motor",
+  "version": "1.0.0",
+  "description": "package to calculate the current engine from its characteristics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Héctor Bolívar <hectorbc338@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "current-motor": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
